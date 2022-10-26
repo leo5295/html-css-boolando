@@ -6,11 +6,23 @@
 
 header{
     width: 100%;
-    height: 100px;
-    background-color: orange;
+    height: 70px;
+    background-color: #FF6900;
     color: white;
+
 }
 
+.h-row{
+    display: flex;
+    width: 100%;
+    height: 70px;
+    align-items: center;
+    background-color: #FF6900;
+    justify-content: space-around;
+    position: fixed;
+    z-index: 1;
+    top:0;
+}
 
 .h-row{
     display: flex;
@@ -104,4 +116,15 @@ header{
 
 del{
     color: black;
+}
+
+.bottombar{
+    height: 100px;
+    background-color: black;
+    color: white;
+}
+
+.container-btm{
+    width: 80%;
+    padding: 20px;
 }
