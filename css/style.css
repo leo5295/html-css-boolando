@@ -16,6 +16,7 @@ header{
     display: flex;
     justify-content: space-around;
     padding: 10px;
+    align-items: center;
 }
 
 .logo{
@@ -73,8 +74,6 @@ header{
 
 .overlay{
     opacity: 0;
-    color: white;
-    background-color: rgba(0, 0, 0, 0,5);
     width: 100%;
     position: absolute;
     top: 0;
@@ -88,4 +87,21 @@ header{
 .white{
     top: 0;
     right: 0;
+}
+
+.price{
+    margin-left: 10px;
+
+}
+
+.nowprice{
+    color: red;
+}
+
+.cloth{
+    font-size: 20px;
+}
+
+del{
+    color: black;
 }
